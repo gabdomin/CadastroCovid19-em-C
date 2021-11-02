@@ -95,7 +95,7 @@ while(num!=6)
         fflush(stdin);
         scanf("%[^\n]s", dnasc);
 
-        printf("EndereÁo: \n");
+        printf("Endere√ßo: \n");
         fflush(stdin);
         scanf("%[^\n]s", end);
 
@@ -115,7 +115,7 @@ while(num!=6)
         fflush(stdin);
         scanf("%[^\n]s", tel);
 
-        printf("Data do DiagnÛstico: \n");
+        printf("Data do Diagn√≥stico: \n");
         fflush(stdin);
         scanf("%[^\n]s", datadiag);
 
@@ -128,9 +128,11 @@ while(num!=6)
         system("pause");
     break;
 
-/*ADICIONAR UMA FUN«√O, PARA ASSIM QUE O CADASTRO FOR REALIZADO
- O SISTEMA JA INFORMA SE … OU NAO UM PACIENTE DO GRUPO DE RISCO
- E TAMB…M J¡ REALIZAR A SAIDA DO ARQUIVO .TXT*/
+/*COLOCAR UM COMANDO PARA CALCULAR A IDADE E RECONHECER A COMORBIDADE, COMPARAR OS DOIS*/
+            
+/*ADICIONAR UMA FUN√á√ÉO, PARA ASSIM QUE O CADASTRO FOR REALIZADO
+ O SISTEMA JA INFORMA SE √â OU NAO UM PACIENTE DO GRUPO DE RISCO
+ E TAMB√âM J√Å REALIZAR A SAIDA DO ARQUIVO .TXT*/
 
     /*SISTEMA DE CONSULTA DE PACIENTES*/
     case 2:
@@ -140,12 +142,12 @@ while(num!=6)
         printf("====================================\n\n");
         printf("Nome completo: %s \n", nome);
         printf("Data de Nascimento: %s \n", dnasc);
-        printf("EndereÁo: %s \n", end);
+        printf("Endere√ßo: %s \n", end);
         printf("CEP: %s \n", cep);
         printf("CPF: %s \n", cpf);
         printf("Email: %s \n", email);
         printf("Telefone: %s \n", tel);
-        printf("Data do DiagnÛstico: %s \n", datadiag);
+        printf("Data do Diagn√≥stico: %s \n", datadiag);
         printf("Comorbidade: %s \n\n", comorb);
         system("pause");
     break;
@@ -159,12 +161,12 @@ while(num!=6)
         printf("====================================\n\n");
         printf("1. Modificar Nome: \n");
         printf("2. Modificar Data de Nascimento: \n");
-        printf("3. Modificar EndereÁo: \n");
+        printf("3. Modificar Endere√ßo: \n");
         printf("4. Modificar CEP: \n");
         printf("5. Modificar CPF: \n");
         printf("6. Modificar Email: \n");
         printf("7. Modificar Telefone: \n");
-        printf("8. Modificar Data do DiagnÛstico: \n");
+        printf("8. Modificar Data do Diagn√≥stico: \n");
         printf("9. Modificar Comorbidade: \n");
         printf("10. Modificar todos os dados: \n");
         scanf("%d", &modifi);
@@ -183,7 +185,7 @@ while(num!=6)
 
     else if(modifi==3)
         {
-            printf("Modificar EndereÁo: \n");
+            printf("Modificar Endere√ßo: \n");
             scanf("%s", &end);
         }
 
@@ -213,7 +215,7 @@ while(num!=6)
 
     else if(modifi==8)
         {
-            printf("Modificar Data do DiagnÛstico: \n");
+            printf("Modificar Data do Diagn√≥stico: \n");
             scanf("%s", &datadiag);
         }
 
@@ -234,7 +236,7 @@ while(num!=6)
             fflush(stdin);
             scanf("%[^\n]s", dnasc);
 
-            printf("EndereÁo: \n");
+            printf("Endere√ßo: \n");
             fflush(stdin);
             scanf("%[^\n]s", end);
 
@@ -254,7 +256,7 @@ while(num!=6)
             fflush(stdin);
             scanf("%[^\n]s", tel);
 
-            printf("Data do DiagnÛstico: \n");
+            printf("Data do Diagn√≥stico: \n");
             fflush(stdin);
             scanf("%[^\n]s", datadiag);
 
@@ -265,7 +267,7 @@ while(num!=6)
 
     else
         {
-            printf("OpÁ„o Inv·lida");
+            printf("Op√ß√£o Inv√°lida");
         }
 
     system("pause");
@@ -275,21 +277,21 @@ while(num!=6)
     case 4:
         system("cls");
         printf("====================================\n");
-        printf("======= EXCLUS√O DE CADASTRO =======\n");
+        printf("======= EXCLUS√ÉO DE CADASTRO =======\n");
         printf("====================================\n\n");
         int excluir;
         printf("Nome: %s \n", nome);
         printf("Data de Nascimento: %s \n", dnasc);
-        printf("EndereÁo: %s \n", end);
+        printf("Endere√ßo: %s \n", end);
         printf("CEP: %s \n", cep);
         printf("CPF: %s \n", cpf);
         printf("Email: %s \n", email);
         printf("Telefone: %s \n", tel);
-        printf("Data do DiagnÛstico: %s \n", datadiag);
+        printf("Data do Diagn√≥stico: %s \n", datadiag);
         printf("Comorbidade: %s \n", comorb);
 
         printf("Excluir dados do cliente: \n\n");
-        printf(" 1. EXCLUIR...\n 2. N√O EXCLUIR...\n\n");
+        printf(" 1. EXCLUIR...\n 2. N√ÉO EXCLUIR...\n\n");
         scanf("%d" ,&excluir);
 
     if(excluir == 1)
@@ -308,7 +310,7 @@ while(num!=6)
 
     else
         {
-            printf("Dados n„o excluidos. \n\n");
+            printf("Dados n√£o excluidos. \n\n");
         }
 
     system("pause");
@@ -321,7 +323,7 @@ while(num!=6)
         printf("========= DADOS DO SISTEMA =========\n");
         printf("====================================\n\n");
         printf("NOME DOS PARTICIPANTES \n");
-        printf("2∞ SEMESTRE - AN¡LISE E DESENVOLVIMENTO DE SISTEMAS - UNIP \n\n");
+        printf("2¬∞ SEMESTRE - AN√ÅLISE E DESENVOLVIMENTO DE SISTEMAS - UNIP \n\n");
 
     system("pause");
     break;
