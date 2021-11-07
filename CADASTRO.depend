@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1635546684 source:c:\users\particular\desktop\nova pasta\cadastro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+
+1635299312 source:c:\users\particular\desktop\nova pasta\tela de login\login.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+
+1635473121 source:c:\users\particular\desktop\nova pasta\texto.c
+	<stdio.h>
+
+1635623864 source:c:\users\dell\desktop\cadastro\cadastro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
+1636264516 source:c:\users\dell\desktop\programa\cadastro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
